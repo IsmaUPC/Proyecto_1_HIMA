@@ -37,7 +37,7 @@ public:
 	SDL_Texture* centro2 = nullptr;
 	SDL_Texture* centro3 = nullptr;
 	SDL_Texture* centro4 = nullptr;
-	int freameCentro1, freameCentro2, freameCentro3, freameCentro4;
+	int freameCentro1, freameCentro2, freameCentro3, freameCentro4,currentCameraX;
 
 
 	

@@ -102,17 +102,19 @@ update_status ModuleScene::PostUpdate()
 	return update_status::UPDATE_CONTINUE;
 }
 void ModuleScene::updateBackground() {
-	if ((App->render->camera.x % SCREEN_WIDTH ) <= 1) {
-		freameCentro1 = App->render->camera.x;
+
+	currentCameraX = App->render->camera.x;
+	if ((currentCameraX % SCREEN_WIDTH ) >= 1) {
+		freameCentro1 = currentCameraX;
 	}
-	if ((App->render->camera.x  % (SCREEN_WIDTH/2)) >= 2) {
-		freameCentro2 = App->render->camera.x;
+	if ((currentCameraX % (SCREEN_WIDTH)) >= 2) {
+		freameCentro2 = currentCameraX;
 	}
-	if ((App->render->camera.x % (SCREEN_WIDTH/3)) <= 3) {
-		freameCentro3 = App->render->camera.x;
+	if ((currentCameraX % (SCREEN_WIDTH)) <= 3) {
+		freameCentro3 = currentCameraX;
 	}
-	if ((App->render->camera.x % (SCREEN_WIDTH/4)) >= 4) {
-		freameCentro4 = App->render->camera.x;
+	if ((currentCameraX % (SCREEN_WIDTH)) >= 4) {
+		freameCentro4 = currentCameraX;
 	}
 
 
