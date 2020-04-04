@@ -37,7 +37,8 @@ public:
 	SDL_Texture* centro2 = nullptr;
 	SDL_Texture* centro3 = nullptr;
 	SDL_Texture* centro4 = nullptr;
-	int cont;
+	int freameCentro1, freameCentro2, freameCentro3, freameCentro4;
+
 
 	
 	// The sprite rectangle for the ground
