@@ -31,17 +31,18 @@ public:
 public:
 	
 	// The scene sprite sheet loaded into an SDL_Texture
-	SDL_Texture* textures[64];
-	SDL_Texture* bgTexture = nullptr;
-	SDL_Texture* centro1 = nullptr;
-	SDL_Texture* centro2 = nullptr;
-	SDL_Texture* centro3 = nullptr;
-	SDL_Texture* centro4 = nullptr;
-	int cont;
 
 	
+	SDL_Texture* bgTextures[4] = {nullptr};
+	int cont[4] = {0};
+	
+
 	// The sprite rectangle for the ground
 	SDL_Texture* starsTexture = nullptr;
+
 };
+
+
+
 
 #endif

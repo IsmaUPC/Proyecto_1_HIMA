@@ -92,7 +92,7 @@ bool ModuleAudio::PlayMusic(const char* path, float fade_time)
 	}
 
 	music = Mix_LoadMUS(path);
-
+	
 	if(music == NULL)
 	{
 		LOG("Cannot load music %s. Mix_GetError(): %s\n", path, Mix_GetError());
