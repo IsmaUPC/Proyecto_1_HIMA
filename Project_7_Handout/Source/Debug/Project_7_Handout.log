@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-﻿  Application.cpp
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(54,19): warning C4244: 'inicializando': conversión de 'const float' a 'int'; posible pérdida de datos
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(56,30): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  ModuleScene.cpp
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(54,19): warning C4244: 'inicializando': conversión de 'const float' a 'int'; posible pérdida de datos
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(56,30): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(100,70): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(101,76): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(102,76): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-  Generando código...
-  Project_7_Handout.vcxproj -> C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Debug\Project_7_Handout.exe
-=======
 ﻿  ModuleScene.cpp
-C:\Users\Ismael\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(54,19): warning C4244: 'inicializando': conversión de 'const float' a 'int'; posible pérdida de datos
-C:\Users\Ismael\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(56,30): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-  Project_7_Handout.vcxproj -> C:\Users\Ismael\Documents\GitHub\Proyecto_1_HIMA\Debug\Project_7_Handout.exe
->>>>>>> 44eed230f389fa4180e4ada11db4f49e84c0e593
+C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(54,19): warning C4244: 'inicializando': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\Animation.h(56,30): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(83,70): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(84,76): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Project_7_Handout\Source\ModuleScene.cpp(85,76): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Project_7_Handout.vcxproj -> C:\Users\Mario\Documents\GitHub\Proyecto_1_HIMA\Debug\Project_7_Handout.exe
